@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="maroon">#FF641B00</color>
+    <color name="burnt_maroon">#FF3D0500</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Light_yellow">#FFFFFFE6</color>
+    <color name="snow">#FFFBF6F4</color>
+    <color name="black">#FF000000</color>
 </resources>

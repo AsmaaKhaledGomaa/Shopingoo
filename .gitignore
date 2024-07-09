@@ -1,3 +1,4 @@
+# Ignore IDE and build system files
 *.iml
 .gradle
 /local.properties
@@ -7,9 +8,17 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Ignore macOS system file
 .DS_Store
+
+# Ignore build outputs
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# Ignore deployment target selector configuration
+/.idea/deploymentTargetSelector.xml

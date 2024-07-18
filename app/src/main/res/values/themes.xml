@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Shopingoo" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.Shopingoo" parent="Theme.Material3.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/snow</item>
         <item name="colorPrimaryVariant">@color/white</item>
@@ -25,6 +25,14 @@
         <item name="android:windowBackground">?attr/colorPrimary</item>
     </style>
 
-    <style name="Theme.Shopingoo" parent="Base.Theme.Shopingoo" />
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenBackground">@drawable/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.Shopingoo</item>
+
+    </style>
 
 </resources>

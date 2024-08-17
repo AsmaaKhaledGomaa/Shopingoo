@@ -7,7 +7,7 @@
     <color name="snow">#FFFBF6F4</color>
     <color name="black">#FF000000</color>
 
-    <!-- Light -->
+    <!-- Dark -->
     <color name="primary_color">?attr/colorPrimary</color>
     <color name="secondary_color">?attr/colorSecondary</color>
 </resources>

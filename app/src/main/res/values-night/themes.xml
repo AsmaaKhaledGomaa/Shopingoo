@@ -26,12 +26,10 @@
     </style>
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <!-- Icon -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
-        <item name="windowSplashScreenBackground">@color/maroon</item>
-        <item name="windowSplashScreenAnimationDuration">200</item>
-
+        <item name="windowSplashScreenBackground">?attr/colorPrimary</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
         <item name="postSplashScreenTheme">@style/Theme.Shopingoo</item>
-
     </style>
+
 </resources>

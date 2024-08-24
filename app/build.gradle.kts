@@ -1,6 +1,10 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    // Google services
+    id("com.google.gms.google-services")
+    // Crashlytics
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -48,4 +52,12 @@ dependencies {
     // Splash Screen
     implementation ("androidx.core:core-splashscreen:1.0.1")
 
+    // Firebase
+    // Firebase BoM
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
+    // Firebase Analytics
+    implementation("com.google.firebase:firebase-analytics")
+    // Firebase Crashlytics and Analytics
+    implementation("com.google.firebase:firebase-crashlytics")
 }
